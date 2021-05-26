@@ -1,0 +1,255 @@
+body {
+    background-color: whitesmoke;
+    overflow-x: hidden;
+}
+
+.leftBorder {
+    border-color: brown;
+    border-left-style: solid;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(184, 184, 233);
+    height: max-content;
+    width: 100vw;
+    letter-spacing: 0.33rem;
+}
+
+.leftNavbar {
+    margin-left: 20px;
+}
+
+.rightNavbar {
+    width: 30%;
+    flex-wrap: wrap;
+    margin-right: 20px;
+    display: flex;
+    justify-content: start;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.middlePortion {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.leftBar {
+    display: flex;
+    justify-content: space-between;
+    height: fit-content;
+}
+
+.leftBar i {
+    color: black;
+    font-size: 20px;
+}
+
+.leftBar .left {
+    height: 30vh;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-left: 5px;
+    margin-right: 30px;
+
+}
+
+.lessons {
+    width: 20vw;
+    height: fit-content;
+}
+
+.byteCounter {
+    width: 30vw;
+    height: 100vh;
+}
+
+.calHWGoals {
+    width: 20vw;
+    height: fit-content;
+    flex-wrap: wrap;
+    margin-right: 50px;
+}
+
+.hidden {
+    display: none;
+}
+
+.lessons h1 {
+    letter-spacing: 0.3rem;
+}
+
+.lessonCards {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.lesson {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #77f9fd;
+    margin-bottom: 5px;
+    border-radius: 5%;
+}
+
+.flexColumn {
+    display: flex;
+    flex-direction: column;
+}
+
+.lesson i {
+    color: black;
+    font-size: 30px;
+}
+
+.scrollMenu {
+    overflow-y: scroll;
+    margin-bottom: 50px;
+    height: 40vh;
+}
+
+.subject {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #c3c8c1;
+    margin-bottom: 5px;
+    border-radius: 5%;
+}
+
+.leadHead {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rankEle {
+    display: flex;
+    justify-content: space-between;
+}
+
+.goals {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.marginBottom20 {
+    margin-bottom: 20px;
+}
+
+.marginBottom35 {
+    margin-bottom: 35px;
+}
+
+.header {
+    padding: 10px 16px;
+    background: #555;
+    color: #f1f1f1;
+}
+
+.content {
+    padding: 16px;
+}
+
+.goalsHead {
+    display: flex;
+    justify-content: space-evenly;
+    width: 20vw;
+}
+
+.lineChart {
+    margin-top: 40px;
+    height: 300px;
+    width: 400px;
+}
+
+.skillChart {
+    margin-top: 80px;
+}
+
+.bgGreen {
+    background-color: yellowgreen;
+}
+
+.courses {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+
+}
+
+.leftCourse {
+    margin-right: 10px;
+    background-color: rgb(190, 187, 181);
+}
+
+.leftCourse:hover {
+    background-color: wheat;
+}
+
+.rightCourse {
+    margin-left: 10px;
+    background-color: rgb(190, 187, 181);
+}
+
+.rightCourse:hover {
+    background-color: wheat;
+}
+
+.courseTop {
+    display: flex;
+    justify-content: space-evenly;
+    width: 14vw;
+    line-height: 0%;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+.courseMid {
+    display: flex;
+    justify-content: space-evenly;
+    width: 12vw;
+}
+
+.courses i {
+    color: black;
+    font-size: 35px;
+}
+
+.task {
+    align-items: center;
+    margin-left: 40px;
+}
+
+.task h3 {
+    font-size: 1.1rem;
+}
+
+.due {
+    color: #800080;
+    margin-left: 20px;
+}
+
+.due button {
+    background-color: rgb(61, 144, 58);
+    border-radius: 5%;
+    color: #FFFFFF;
+}
+
+.task input {
+    position: relative;
+    right: 20px;
+}
+
+.task i {
+    margin-left: 15px;
+    margin-right: 10px;
+}
